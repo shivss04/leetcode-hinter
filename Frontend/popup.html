@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            width: 210px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        #hint-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        #hint-text {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005ba4;
+        }
+
+        #response-container {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center; 
+        }
+
+        #response-text {
+            white-space: pre-wrap; 
+        }
+
+        #error-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hinter!</h1>
+    <div id="hint-container">
+        <span id="hint-text">Need a hint?</span>
+        <button id="takeScreenshotBtn">Submit</button>
+    </div>
+    <div id="response-container" style="display:none;">
+        <div id="response-text"></div>
+    </div>
+    <div id="error-message" style="display:none;"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
