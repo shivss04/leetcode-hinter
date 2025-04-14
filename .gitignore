@@ -2,7 +2,7 @@ RDS info.txt
 leetcode_lambda_key.env
 Endpoint.txt
 *.png
-medium-artice.md
+medium-article.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
